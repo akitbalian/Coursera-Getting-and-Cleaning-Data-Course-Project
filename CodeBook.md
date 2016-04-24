@@ -3,6 +3,15 @@
 This Codebook describes the columns that exist in the new tidyActivityData.txt file <br>
 For convenience sake a file is automatically created with the feature names at the end of the script
 
+#Activity Labels
+
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
 
 # Columns
 
