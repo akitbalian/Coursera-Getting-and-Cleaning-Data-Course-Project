@@ -1,4 +1,4 @@
-write.table(desFeatures.names, "featureNames.txt", row.names = FALSE)#Load Required Libraries
+#Load Required Libraries
 library(plyr)
 #I had issues dowloading the .zip file wihout this.
 library(RCurl)
