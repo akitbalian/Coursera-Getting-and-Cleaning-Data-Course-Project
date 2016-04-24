@@ -1,4 +1,4 @@
-#Load Required Libraries
+write.table(desFeatures.names, "featureNames.txt", row.names = FALSE)#Load Required Libraries
 library(plyr)
 #I had issues dowloading the .zip file wihout this.
 library(RCurl)
@@ -45,3 +45,4 @@ trainAndTest.mean      <- dcast(trainAndTest.melted, subject + activity ~ variab
 
 #Write out the output file with means only
 write.table(trainAndTest.mean, "tidyActivityData.txt", row.names = FALSE)
+write.table(desFeatures.names, "featureNames.txt", row.names = FALSE)
