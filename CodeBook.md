@@ -12,9 +12,14 @@ For convenience sake a file is automatically created with the feature names at t
 5 STANDING<br>
 6 LAYING<br>
 
+#Operational steps
+1-The features and labels are stored <br>
+2-The features are subset to only keep those with "mean" and "std" in the name<br>
+3-Activity and Test Data is loaded for the above features<br>
+4-All the data is merged and then turned into factors<br>
+5-Finally only the means are kept and written to a file as requested<br>
 
 # Columns
-
 "subject" <br>
 "activity"<br>
 "tBodyAcc-mean()-X"<br>
